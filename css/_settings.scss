@@ -1,0 +1,63 @@
+$color_1: transparent;
+$color_2: white;
+$color_3: black;
+$color_4: #CCC;
+$color_5: #FFF;
+$color_6: #333;
+$color_7: #BDBDBD;
+$color_8: #F3F3F3;
+$color_9: inherit;
+$color_10: #fe4844;
+$color_11: #ffffff;
+$color_12: #413939;
+$color_13: #666;
+$color_14: #b6211e;
+$color_15: #fff;
+$color_16: #3a4248;
+$color_17: #000000;
+$color_18: #b5211f;
+$color_19: blue;
+$color_20: #b5211d;
+$color_21: #000;
+$font-family_1: MyriadPro, sans-serif;
+$font-family_2: "slick";
+$font-family_3: Arial, Baskerville, monospace;
+$background-color_1: #b6211e;
+$background-color_2: #ffffff;
+$background-color_3: #676263;
+$background-color_4: #4e4646;
+$background-color_5: #f4f5f7;
+$background-color_6: #eeeeee;
+$background-color_7: #d3bc93;
+$background-color_8: #fff;
+$background-color_9: transparent;
+@font-face {
+  font-family: 'MyriadPro';
+  src: local("css/fonts/MyriadPro-Regular"), url("fonts/MyriadPro-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyriadPro';
+  src: local("css/fonts/MyriadPro-Bold"), url("fonts/MyriadPro-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "slick";
+  src: url("./fonts/slick.eot");
+  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
